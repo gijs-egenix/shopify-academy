@@ -1,42 +1,49 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "image_with_text_nemJzz": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "heading_yaK7kB": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "button": {
-          "type": "buttons",
+        "text_Ee3ibH": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_VwefcH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "heading_yaK7kB",
+        "text_Ee3ibH",
+        "button_VwefcH"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "featured_collection": {
@@ -69,7 +76,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "image_with_text_nemJzz",
     "featured_collection"
   ]
 }
